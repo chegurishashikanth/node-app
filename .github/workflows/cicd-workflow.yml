@@ -3,6 +3,7 @@ name: CICD
 on:
   push:
     branches: [ deploy-to-ecs-fargate ]
+    
 jobs:
   build-and-deploy:
     runs-on: [ ubuntu-latest ]
